@@ -2,8 +2,6 @@
 Alphabet Soup is a foundation that funds agencies, impacting the community. This project creates a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 # Results
-\
-\
 **Data Preprocessing**
 \
 The data consists of a CSV file, containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization: 
@@ -45,5 +43,6 @@ Unfortunately, this model did not achieve the target performance of 75%. However
 
 # Summary
 To continue improving the model, the next iteration should alter the number of neurons, set-up of the weights, and amount of data. The accuracy of a model measures of how accurate your model's prediction is compared to the true data. The best version of this model had an accuracy of 66%, so there is still room for improvement.
+\
 \
 A logistic regression model could alternatively address Alphabet Soup's problem of what agencies to fund. A logistic regression is a classification algorithm that analyzes continuous and categorical variables. Using a combination of input variables, logistic regression predicts the probability of the input data belonging to one of two groups. If the probability is above a predetermined cutoff, the sample is assigned to the first group, otherwise it is assigned to the second. For example, using the agencies' information (such as ASK_AMT and IS_SUCCESSSFUL), logistic regression could be used by a Alphabet Soup to determine if the agency does or does not qualify for a grant.
